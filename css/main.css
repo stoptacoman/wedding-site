@@ -1,0 +1,155 @@
+body {
+    background: url(../img/pw_maze_white.png);
+    background-color: rgb(235,235,235);
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #485C74;
+}
+
+p {
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 22px;
+}
+
+h2 a {
+    text-decoration: none;
+    color: #485C74;
+}
+
+h2 a:hover {
+    color: #505E80;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.header {
+    height: 150px;
+    padding-top: 40px;
+    background-image: url(../img/header.jpg);
+    border-color: #485C74;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+.header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    background-color: rgb(242,221,227);
+    border-right-style: solid;
+    border-left-style: solid;
+    height: 30px;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+}
+
+.nav a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: #485C74;
+    text-decoration: none;
+    padding-right: 18px;
+    padding-left: 18px;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-right {
+    float: right;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(235,235,235);
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    display: block;
+    font-size: 18px;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(225,225,225);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.main {
+    background-color: rgb(220,220,220);
+    padding: 20px 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+.main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery {
+    margin-left: 50px;
+}
+.gallery a {
+    display: inline-block;
+    margin-bottom: 8px;
+    width: calc(50% -4);
+    margin-right: 8px;
+    border: 0.2px solid;
+    border-color: #485C74;
+    box-shadow: 5px 5px 5px #485C74;
+}
+
+#about-left {
+    display: inline-block;
+    width: 500px;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+#about-right {
+    display: inline-block;
+    width: 500px;
+    margin: auto 0;
+}
+
+#the-wedding p {
+    margin-left: 75px;
+    margin-right: 75px;
+}
